@@ -24,13 +24,18 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
+const fullName = me.firstName + ' ' + me.lastName;
+// const fullName = `${me.firstName} ${me.lastName}`;
+console.log(fullName);
 
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-
+console.log(me.favThreeFoods[0]);
+console.log(me.favThreeFoods[2]);
+console.log(me.favThreeFoods[0], me.favThreeFoods[2]);
 
 
 /* 4. Change a property of an existing object.
@@ -40,6 +45,11 @@ console.log('A little about me:', me);
   - Console.log your updated shoe count. 
 */
 
+me.shoeCount++;
+console.log(me.shoeCount);
+
+
+
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -47,3 +57,5 @@ console.log('A little about me:', me);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'red';
+console.log(me);
