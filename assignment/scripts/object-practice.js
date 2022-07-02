@@ -10,6 +10,11 @@ console.log('***** Object Practice *****')
 */
 const me = {
   // TODO - add properties here
+  firstName: 'Kyle',
+  lastName: 'VanTassell',
+  hasSiblings: true,
+  shoeCount: 7,
+  favThreeFoods: ['tacos', 'pastrami', 'kimchi'],
 };
 console.log('A little about me:', me);
 
@@ -19,7 +24,6 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-
 
 
 /* 3. Nested arrays
